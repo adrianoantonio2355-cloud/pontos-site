@@ -7,6 +7,15 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
+  // ==========================================================
+  // CONFIGURAÇÃO DO GITHUB PAGES (A nossa alteração)
+  // Adicionamos o objeto 'vite' para passar a propriedade 'base'
+  // indicando que o site vai morar na pasta /pontos-site/
+  // ==========================================================
+  vite: {
+    base: "/pontos-site/",
+  },
+  
   tanstackStart: {
     // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
     // nitro/vite builds from this
