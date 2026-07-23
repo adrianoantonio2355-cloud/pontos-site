@@ -1,8 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { TrendingUp, ShieldCheck, Clock, CheckCircle, MessageCircle, Sparkles, ArrowRight } from "lucide-react";
+import { TrendingUp, ShieldCheck, Clock, CheckCircle, Sparkles, ArrowRight } from "lucide-react";
 import imagemScore from "@/assets/imagem-score.jpg";
 import fundoAnalise from "@/assets/fundo-analise.jpg";
 import consultoriaImg from "@/assets/consultoria.jpg";
+import whatsappAsset from "@/assets/whatsapp-icon.png.asset.json";
 
 const ACTION_URL = "https://www.pontosolucoes.online/flashpontos";
 const WHATSAPP_URL = ACTION_URL;
