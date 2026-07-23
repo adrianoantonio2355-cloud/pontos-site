@@ -101,19 +101,19 @@ function Index() {
           <div>
             <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs font-medium">
               <Sparkles className="h-3.5 w-3.5" style={{ color: "var(--brand-purple)" }} />
-              Consultoria financeira especializada
+              Consultoria especializada
             </div>
             <h1 className="text-4xl font-bold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl">
-              Aumente seu Score e recupere seu{" "}
+              Aumente seu Score no{" "}
               <span
                 className="bg-clip-text text-transparent"
                 style={{ backgroundImage: "var(--gradient-text)" }}
               >
-                crédito no mercado
+                mercado
               </span>
             </h1>
             <p className="mt-6 max-w-xl text-lg text-muted-foreground">
-              Pare de ter suas solicitações negadas. Nossa consultoria financeira especializada ajuda você a organizar sua vida financeira e atingir a pontuação que você merece, sem dor de cabeça.
+              Pare de ter suas solicitações negadas. Nossa consultoria especializada ajuda você a organizar sua vida e atingir a pontuação que você merece, sem dor de cabeça.
             </p>
             <div className="mt-8">
               <CTAButton large>Quero Aumentar Meu Score</CTAButton>
@@ -129,7 +129,7 @@ function Index() {
             <div className="relative overflow-hidden rounded-[2.5rem] shadow-2xl">
               <img
                 src={imagemScore}
-                alt="Cliente aumentando seu score de crédito"
+                alt="Cliente aumentando seu score"
                 width={1024}
                 height={1024}
                 className="h-full w-full object-cover"
@@ -142,7 +142,7 @@ function Index() {
       {/* 4. HOW IT WORKS */}
       <section className="mx-auto max-w-6xl px-4 py-20">
         <div className="mb-12 text-center">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Entenda seu cenário financeiro</h2>
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Entenda seu cenário</h2>
           <p className="mt-3 text-muted-foreground">Uma abordagem completa para o seu sucesso.</p>
         </div>
 
@@ -151,13 +151,13 @@ function Index() {
             {
               img: fundoAnalise,
               title: "Análise Detalhada",
-              desc: "Avaliamos o seu perfil, identificamos os bloqueios e desenhamos a estratégia exata para alavancar a sua pontuação nos principais birôs de crédito.",
+              desc: "Avaliamos o seu perfil, identificamos os bloqueios e desenhamos a estratégia exata para alavancar a sua pontuação nos principais birôs.",
               cta: "Iniciar Análise",
             },
             {
               img: consultoriaImg,
               title: "Consultoria Pessoal",
-              desc: "Acompanhamento lado a lado. Descubra as melhores práticas de mercado e tenha especialistas guiando você rumo à aprovação do seu crédito.",
+              desc: "Acompanhamento lado a lado. Descubra as melhores práticas de mercado e tenha especialistas guiando você rumo à aprovação.",
               cta: "Falar com Especialista",
             },
           ].map((b) => (
@@ -194,7 +194,7 @@ function Index() {
             <TrendingUp className="h-7 w-7" />
           </div>
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Pronto para transformar sua vida financeira?
+            Pronto para transformar sua vida?
           </h2>
           <div className="mt-8 flex justify-center">
             <a
